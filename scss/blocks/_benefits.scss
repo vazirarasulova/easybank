@@ -1,0 +1,196 @@
+.benefits{
+  background: #F4F5F7;
+  padding-top: 96px;
+  padding-bottom: 94px;
+}
+
+
+.benefits__title{
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+  margin-top: 0;
+}
+
+
+.benefits__info{
+  width: 100%;
+  max-width: 635px;
+  margin-bottom: 72px;
+}
+
+.benefits__title{
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+}
+
+.benefits__text{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+
+.benefits-list__list{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  list-style: none;
+}
+
+.benefits-list__item{
+  width: 100%;
+  max-width: 255px;
+  padding-top: 90px;
+}
+
+
+.benefits-list__item:nth-child(1){
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("../images/online-banking.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.benefits-list__item:nth-child(2){
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("../images/budget.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+
+.benefits-list__item:nth-child(3){
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("../images/onboard.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+
+.benefits-list__item:nth-child(4){
+  position: relative;
+  &::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("../images/open-api.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+
+
+
+.benefits-list__title{
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+}
+
+.benefits-list__text{
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .benefits{
+    padding-bottom: 64px;
+  }
+  
+  .benefits__info{
+    width: 100%;
+    max-width: 327px;
+    margin: 0 auto;
+  }
+
+  .benefits__title{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;
+  }
+
+  .benefits__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+  }
+
+  .benefits-list__list{
+    flex-direction: column;
+  }
+
+  .benefits-list__item{
+    width: 100%;
+    max-width: 327px;
+    margin: 0 auto;
+
+    &::before{
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }
+
+  .benefits-list__title{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+  }
+
+  .benefits-list__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+  }
+}
