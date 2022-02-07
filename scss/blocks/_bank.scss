@@ -3,13 +3,9 @@
   background: #F2F2F2;
   background-image:   url("../images/hero-bg.png");
   background-repeat: no-repeat;
-  background-position:   calc(50% + 300px) calc(50% + 50px);
+  background-position:   calc(50% + 770px) calc(50% - 35px);
   padding: 250px 0 170px;
- 
-
- 
   }
-
 
 
 .bank__info {
@@ -34,6 +30,8 @@
   color: #9597A5;
   margin-bottom: 36px;
 }
+
+
 
 @media only screen and (max-width: 425px) {
   .bank {
