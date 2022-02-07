@@ -50,6 +50,14 @@
   line-height: 20px;
   letter-spacing: -0.285714px;
   color: #2D314D;
+
+  &:hover{
+    color: #30C88F;
+  }
+
+  &:active{
+    color: #30C88F;
+  }
 }
 
 .article__subtext {

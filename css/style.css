@@ -459,7 +459,7 @@ img {
   background-position: center;
   background-size: contain;
   position: absolute;
-  top: 42px;
+  top: 45px;
   right: -5px;
 }
 
@@ -530,9 +530,9 @@ img {
 .bank {
   position: relative;
   background: #F2F2F2;
-  background-image: url("../images/hero-phones.png"), url("../images/hero-bg.png");
+  background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
-  background-position: calc(50% + 420px) calc(50%), calc(50% + 300px) calc(50% + 50px);
+  background-position: calc(50% + 300px) calc(50% + 50px);
   padding: 250px 0 170px;
 }
 
@@ -591,9 +591,24 @@ img {
 }
 
 .benefits {
+  position: relative;
   background: #F4F5F7;
   padding-top: 96px;
   padding-bottom: 94px;
+}
+
+.benefits::after {
+  content: "";
+  display: block;
+  width: 729px;
+  height: 900px;
+  background-image: url("../images/hero-phones.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: calc(50% - 1150px);
+  left: calc(50% + 70px);
 }
 
 .benefits__title {
@@ -837,6 +852,14 @@ img {
   color: #2D314D;
 }
 
+.article__text:hover {
+  color: #30C88F;
+}
+
+.article__text:active {
+  color: #30C88F;
+}
+
 .article__subtext {
   font-size: 13px;
   line-height: 18px;
@@ -987,11 +1010,27 @@ img {
     margin: 0;
     margin-bottom: 8px;
   }
+  .footer-info__box {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 22px;
+    text-decoration: none;
+  }
   .footer-info__link {
     display: block;
     width: 163px;
     margin: 0 auto;
     margin-top: 16px;
+  }
+  .footer-info__link:hover {
+    opacity: 0.4;
+  }
+  .footer-info__link:active {
+    opacity: 0.4;
   }
 }
 /*# sourceMappingURL=style.css.map */

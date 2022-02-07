@@ -1,16 +1,21 @@
 .bank {
   position: relative;
   background: #F2F2F2;
-  background-image: url("../images/hero-phones.png"), url("../images/hero-bg.png");
+  background-image:   url("../images/hero-bg.png");
   background-repeat: no-repeat;
-  background-position: calc(50% + 420px) calc(50%), calc(50% + 300px) calc(50% + 50px);
+  background-position:   calc(50% + 300px) calc(50% + 50px);
   padding: 250px 0 170px;
-}
+ 
+
+ 
+  }
+
 
 
 .bank__info {
   width: 100%;
   max-width: 447px;
+  
 }
 
 .bank__title {
