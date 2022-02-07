@@ -609,7 +609,7 @@ img {
   background-size: contain;
   position: absolute;
   top: calc(50% - 1150px);
-  left: calc(50% + 70px);
+  left: calc(50% + 75px);
 }
 
 .benefits__title {
@@ -1013,16 +1013,6 @@ img {
     text-align: center;
     margin: 0;
     margin-bottom: 8px;
-  }
-  .footer-info__box {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 28px;
-    color: #FFFFFF;
-    background: #FFFFFF;
-    border-radius: 22px;
-    text-decoration: none;
   }
   .footer-info__link {
     display: block;
